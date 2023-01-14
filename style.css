@@ -1,0 +1,153 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+font-size: 16px;
+color: #ffffff;
+}
+body{
+background-color:rgb(1, 1, 10) ;
+position: relative;
+}
+.container{
+position: absolute;
+width: 15.625rem;
+height: 28.125rem;
+top: 7.5rem;
+left: 40.625rem;
+border-radius: 0.625rem;
+background-color:#15273F;
+border: 0.125rem solid #15273F;
+translate: -50%;
+}
+.image{
+position:absolute ;
+top: 1.125rem;
+left: 0.875rem;
+width: 13.75rem;
+border-radius: 0.5rem;
+
+}
+.text-1{
+position: absolute;
+top:15.625rem;
+left: 1.0625rem;
+}
+.text-2{
+    position: absolute;
+    top:17.5rem;
+    left: 1.0625rem;
+    font-size: small;
+    opacity:0.5; 
+}
+.text-3{
+    position: absolute;
+    top:20.625rem;
+    left: 1.0625rem;
+    color: #1D808D;
+    font-size: 0.9375rem;
+}
+.text-4{
+    position: absolute;
+    top:20.625rem;
+    left: 10.5rem;
+}
+hr{
+    position: absolute;
+    top:23.4375rem ;
+    left: 1.0625rem;
+    width: 13.125rem;
+    opacity: 0.5;
+}
+.image-2{
+    position: absolute;
+    width: 2.1875rem;
+    top: 24.375rem;
+    left: 1.0625rem;
+}
+.text-5{
+    position: absolute;
+    top: 25rem;
+    left: 4.0625rem;
+    font-size: 0.9375rem;
+}
+span{
+    opacity: 0.5;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color:rgb(1, 1, 10) ;
+        position: relative;
+        } 
+        .container{
+            position: absolute;
+            width: 15.625rem;
+            height: 28.125rem;
+            top: 3.625rem;
+            left: 11.25rem;
+            
+        }
+    }
+    
+@media only screen and (min-width: 600px) {
+    body{
+        background-color:rgb(1, 1, 10) ;
+        position: relative;
+        } 
+        .container{
+            position: absolute;
+            width: 15.625rem;
+            height: 28.125rem;
+            top: 5.625rem;
+            left: 11.25rem;
+            
+        } 
+
+    @media only screen and (min-width: 768px) {
+        body{
+            background-color:rgb(1, 1, 10) ;
+            position: relative;
+            } 
+            .container{
+                position: absolute;
+                width: 15.625rem;
+                height: 28.125rem;
+                top: 5.625rem;
+                left: 25.25rem;
+                
+            }   
+    }
+     @media only screen and (min-width: 992px) {
+        body{
+            background-color:rgb(1, 1, 10) ;
+            position: relative;
+            } 
+            .container{
+                position: absolute;
+                width: 15.625rem;
+                height: 28.125rem;
+                top: 5.625rem;
+                left: 30.25rem;
+                
+            } 
+     }
+     @media only screen and (min-width: 1200px) {
+        body{
+            background-color:rgb(1, 1, 10) ;
+            position: relative;
+            } 
+            .container{
+                position: absolute;
+                width: 15.625rem;
+                height: 28.125rem;
+                top: 5.625rem;
+                left: 40rem;
+                
+            } 
+    }
+}
+              
+
+ 
